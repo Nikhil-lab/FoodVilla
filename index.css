@@ -1,0 +1,72 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+
+Normal Native CSS
+SCSS
+Inline CSS  ---------    <h1 style = {{color:red}}> Hello </h1>
+Compponent Librareis - Material UI, Base UI
+Styled Components
+
+Tailwind CSS Framework
+    - CSS on the go (same file)
+    - reusability
+    - less bundle size
+    - flexible / customizable
+    - easy to control
+
+
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between ;
+    margin: 10px;
+    border: 1px solid black;
+}
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav-items > ul > li {
+    padding: 10px;
+}
+.logo {
+    width: 100px;
+}
+.card{
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.card > img {
+    width: 100%;
+    height: 30%;
+}
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+}
+.search-btn{
+    color:lightgrey;
+}
+
+*/
+
+.shimmer-card {
+    width: 200px;
+    height: 200px;
+    background: lightgrey;
+    margin: 20px;
+}
